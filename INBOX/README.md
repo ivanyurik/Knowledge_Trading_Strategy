@@ -1,9 +1,10 @@
 # INBOX
 
-Сюди додаються нові отримані transcripts зустрічей.
+INBOX більше не є частиною repository processing model.
 
-Knowledge Agent повинен обробити кожен новий transcript, а потім перемістити/зберегти immutable source у:
+Supplied transcripts надходять до Project Knowledge Manager як input і проходять correction gate до запису в repository.
 
-`01_RAW_TRANSCRIPTS/YYYY/MM/`
+Не зберігайте raw transcripts у цьому каталозі.
+Не створюйте raw, backup або audit копії transcript у GitHub.
 
-Не редагуйте transcript вручну після обробки.
+Після correction gate canonical transcript зберігається у 01_RAW_TRANSCRIPTS/YYYY/MM/.
