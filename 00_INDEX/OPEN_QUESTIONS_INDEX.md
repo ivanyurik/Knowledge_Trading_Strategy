@@ -1,6 +1,5 @@
 # Open Questions Index
 
-_Відкритих питань поки що немає._
+- OQ-2026-10-06-001 — strategy-rule and architecture clarifications — OPEN / NEEDS_REVIEW
 
-Формат:
-- Q-NNN — питання — status — source CALL-ID
+Open questions remain traceable until explicitly resolved by source evidence.
