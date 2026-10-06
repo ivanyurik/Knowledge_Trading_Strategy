@@ -1,3 +1,5 @@
 # README.md
 
-This directory is managed by the Project Knowledge Agent.
+Цей каталог керується Project Knowledge Agent.
+
+Оригінальні транскрипти зберігаються тут як незмінне первинне джерело. Не редагуйте їх після обробки.
