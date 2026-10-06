@@ -1,6 +1,5 @@
 # Requirements Index
 
-_Requirements поки що не зафіксовано._
+NONE FOUND as of the currently processed CALLs.
 
-Формат:
-- REQ-NNN — назва — status — priority — source CALL-ID
+Requirements must have source traceability and must not be inferred from proposals or assumptions.
