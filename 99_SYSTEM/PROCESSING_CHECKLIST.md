@@ -5,38 +5,52 @@
 ## Mandatory sequence
 
 1. [ ] Repository structure inspected
-2. [ ] 99_SYSTEM instructions inspected
-3. [ ] Relevant indexes inspected
-4. [ ] Input transcript validated
-5. [ ] Full transcription correction pass completed
-6. [ ] Only corrected canonical transcript written to 01_RAW_TRANSCRIPTS/YYYY/MM/
-7. [ ] Raw ASR input NOT stored anywhere in repository
-8. [ ] HIGH-confidence hallucinations/errors corrected
-9. [ ] MEDIUM-confidence cases marked NEEDS_REVIEW
-10. [ ] LOW-confidence cases not guessed
-11. [ ] Requirements checked
-12. [ ] Decisions checked
-13. [ ] Business Rules checked
-14. [ ] Architecture checked
-15. [ ] Workflows checked
-16. [ ] Data checked
-17. [ ] Integrations checked
-18. [ ] UI/UX checked
-19. [ ] Assumptions checked
-20. [ ] Risks checked
-21. [ ] Open Questions checked
-22. [ ] Conflicts checked
-23. [ ] Proposals checked
-24. [ ] Existing knowledge searched for duplicates
-25. [ ] Existing IDs reused where applicable
-26. [ ] New IDs created only for genuinely new knowledge
-27. [ ] Source references added
-28. [ ] Relevant indexes updated
-29. [ ] Root CHANGELOG.md updated
-30. [ ] Changed files re-read
-31. [ ] References and IDs verified
-32. [ ] Processing Report completed
-33. [ ] Completion Gate passed
+2. [ ] `99_SYSTEM` instructions inspected
+3. [ ] `00_INDEX/MASTER_INDEX.md` inspected
+4. [ ] `00_INDEX/TOPIC_INDEX.md` inspected
+5. [ ] Input transcript validated
+6. [ ] Full transcription correction pass completed
+7. [ ] Only corrected canonical transcript written to `01_RAW_TRANSCRIPTS/YYYY/MM/`
+8. [ ] Raw ASR input NOT stored anywhere in repository
+9. [ ] HIGH-confidence hallucinations/errors corrected
+10. [ ] MEDIUM-confidence cases marked `NEEDS_REVIEW`
+11. [ ] LOW-confidence cases not guessed
+12. [ ] Requirements checked
+13. [ ] Decisions checked
+14. [ ] Business Rules checked
+15. [ ] Architecture checked
+16. [ ] Workflows checked
+17. [ ] Data checked
+18. [ ] Integrations checked
+19. [ ] UI/UX checked
+20. [ ] Assumptions checked
+21. [ ] Risks checked
+22. [ ] Open Questions checked
+23. [ ] Conflicts checked
+24. [ ] Proposals checked
+25. [ ] Existing knowledge searched for duplicates
+26. [ ] Existing Topic IDs and aliases searched
+27. [ ] Existing IDs reused where applicable
+28. [ ] New IDs created only for genuinely new knowledge/topics
+29. [ ] Topic entries created only for meaningful retrieval concepts
+30. [ ] Current CALL-ID added to every materially discussed existing topic
+31. [ ] Related KB/DEC/OQ/CON links updated
+32. [ ] Source references added
+33. [ ] Relevant indexes updated
+34. [ ] Root `CHANGELOG.md` updated
+35. [ ] Changed files re-read
+36. [ ] References and IDs verified
+37. [ ] Processing Report completed
+38. [ ] Completion Gate passed
+
+## Topic-specific QA
+
+- [ ] No topic exists only because a keyword was mentioned incidentally.
+- [ ] No duplicate topic was created because of naming variation.
+- [ ] No topic-specific folder was created.
+- [ ] Topic entries point to real CALL-ID sources.
+- [ ] Every materially discussed topic from the CALL is represented.
+- [ ] Index does not duplicate full knowledge content.
 
 ## Transcription gate
 
@@ -51,10 +65,10 @@ HIGH-confidence errors are corrected; MEDIUM-confidence cases are flagged; LOW-c
 - treating uncorrected ASR as canonical;
 - silently resolving conflicts;
 - inventing uncertain wording;
-- reporting PROCESSED with skipped checks.
+- reporting `PROCESSED` with skipped checks.
 
 ## Status
 
-PROCESSED — all mandatory checks passed.
-NEEDS_REVIEW — processing completed but review items remain.
-BLOCKED — a mandatory processing step could not be completed.
+`PROCESSED` — all mandatory checks passed.
+`NEEDS_REVIEW` — processing completed but review items remain.
+`BLOCKED` — a mandatory processing step could not be completed.
