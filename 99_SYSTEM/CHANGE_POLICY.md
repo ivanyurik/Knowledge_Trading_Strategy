@@ -2,26 +2,43 @@
 
 ## Allowed
 
-- Додавати нові transcripts.
-- Додавати нові knowledge items.
-- Оновлювати indexes.
-- Додавати source references.
-- Позначати decisions або requirements як superseded, коли це прямо підтверджено.
-- Додавати corrections із доказами.
-- Додавати conflicts.
+- Add supplied transcripts as processing inputs.
+- Add corrected canonical transcripts.
+- Add new knowledge items.
+- Extend existing knowledge when new source evidence supports it.
+- Update indexes and source references.
+- Mark knowledge SUPERSEDED when explicitly supported.
+- Add corrections, conflicts and review items.
+- Update Processing Reports and changelog.
+
+## Canonical transcript rule
+
+Supplied ASR is input, not a repository source layer.
+Only the corrected canonical transcript may be written to 01_RAW_TRANSCRIPTS/YYYY/MM/.
+Raw ASR, raw backups and raw audit copies are forbidden.
 
 ## Restricted
 
-Зміни до established requirements, decisions, architecture або business logic потребують явного source evidence.
+Changes to established requirements, decisions, architecture or business logic require explicit source evidence.
+Medium/low-confidence interpretation remains NEEDS_REVIEW until resolved.
+
+## Historical knowledge
+
+Do not silently erase history.
+When newer evidence explicitly supersedes an older item, keep the old item, mark it SUPERSEDED and link the newer source.
+Unresolved conflicts remain explicit.
 
 ## Never
 
-Ніколи не видаляйте source transcripts і не переписуйте історичний knowledge непомітно.
+- store raw ASR;
+- create raw transcript backups;
+- silently overwrite historical knowledge;
+- turn proposals into decisions;
+- turn assumptions into requirements;
+- invent uncertain wording;
+- hide conflicts.
 
 ## Git
 
-Бажано створювати один логічний processing commit на один transcript.
-
-Рекомендований commit message:
-
-`knowledge: process CALL-YYYY-MM-DD-NNN`
+One logical processing commit per CALL is preferred.
+Recommended message: knowledge: process CALL-YYYY-MM-DD-NNN
