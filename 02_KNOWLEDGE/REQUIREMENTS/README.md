@@ -1,3 +1,5 @@
 # REQUIREMENTS / README.md
 
-This directory is managed by the Project Knowledge Agent.
+Цей каталог керується Project Knowledge Agent.
+
+Тут зберігаються структуровані requirements проєкту з обов'язковим посиланням на джерело.
