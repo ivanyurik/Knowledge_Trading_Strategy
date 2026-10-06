@@ -1,3 +1,5 @@
 # README.md
 
-This directory is managed by the Project Knowledge Agent.
+Цей каталог керується Project Knowledge Agent.
+
+Тут зберігаються зафіксовані decisions із їхнім статусом, обґрунтуванням та джерелами.
