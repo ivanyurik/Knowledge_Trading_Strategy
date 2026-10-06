@@ -1,70 +1,126 @@
-# Knowledge Base Methodology
+# Project Knowledge Manager Methodology
 
-## 1. Призначення
+## 1. Purpose
 
-Цей репозиторій є довгостроковою пам'яттю проєкту. Він зберігає транскрипти зустрічей як первинні докази та підтримує над ними структурований і придатний для пошуку knowledge layer.
+This repository is the long-term, traceable knowledge base of the project.
 
-## 2. Source hierarchy
+The system is:
 
-1. Explicit final decision
-2. Explicit confirmed requirement
-3. Explicit business rule
-4. Explicit statement from discussion
-5. Assumption
-6. Proposal
-7. Agent inference
+transcript input → correction gate → canonical transcript → structured knowledge → navigation/indexes
 
-Inference ніколи не може непомітно стати фактом проєкту.
+The repository is not a raw transcript archive.
 
-## 3. Layers
+## 2. Canonical source model
 
-### Layer 1 — RAW SOURCE
+A supplied transcript is an input artifact.
 
-Оригінальний транскрипт у точному вигляді, у якому його отримано. Його не можна переписувати, замінювати резюме або видаляти.
+It must first pass the transcription correction gate.
 
-### Layer 2 — CLEAN SOURCE
+Only the corrected result is stored in GitHub as the canonical transcript:
 
-Необов'язкове виправлене представлення транскрипту. Кожне виправлення має зберігати оригінальний текст і пояснювати, чому виправлення обґрунтоване.
+01_RAW_TRANSCRIPTS/YYYY/MM/CALL-YYYY-MM-DD-NNN.md
 
-### Layer 3 — STRUCTURED KNOWLEDGE
+Despite the directory name, raw ASR is never stored.
 
-Requirements, decisions, business rules, architecture, workflows, assumptions, risks, questions і conflicts.
+There is no repository layer for RAW SOURCE, raw transcript backup, immutable original transcript, or CLEAN SOURCE paired with a raw source.
 
-### Layer 4 — NAVIGATION
+## 3. Transcription correction policy
 
-Індекси, які дозволяють agent швидко знаходити потрібні файли без читання всього репозиторію.
+HIGH confidence: automatically correct clear ASR hallucinations, mangled technical terms, names, numbers, abbreviations and product/platform names.
 
-## 4. Immutable source rule
+MEDIUM confidence: do not invent wording; mark NEEDS_REVIEW.
 
-Оригінальний транскрипт є доказом. Він має залишатися доступним для відновлення в точному вигляді, у якому був отриманий.
+LOW confidence: do not guess.
 
-## 5. Traceability
+Correction happens before knowledge extraction.
 
-Кожен структурований елемент повинен містити:
-- унікальний ID
-- status
-- source transcript ID
-- source location, якщо доступна
-- date
-- confidence, якщо використовується інтерпретація
+If correction cannot be completed, status is NEEDS_REVIEW or BLOCKED, never PROCESSED.
 
-## 6. Conflict handling
+## 4. Structured knowledge
 
-Не можна вирішувати історичні суперечності шляхом непомітного перезапису старої інформації. Потрібно зберегти обидва твердження, пов'язати їх і позначити новіше рішення як таке, що замінює попереднє, лише якщо це прямо випливає з обговорення.
+Knowledge is separated from the transcript into navigable modules.
 
-## 7. Deduplication
+Required categories:
+- Requirements
+- Decisions
+- Business Rules
+- Architecture
+- Workflows
+- Data
+- Integrations
+- UI/UX
+- Assumptions
+- Risks
+- Open Questions
+- Conflicts
+- Proposals
 
-Не створюйте дублікати knowledge-документів для одного стабільного факту. Оновлюйте наявний knowledge item і додавайте нове source reference.
+Every extracted fact points to its canonical CALL-ID.
 
-## 8. Historical preservation
+## 5. Modular architecture
 
-Superseded decisions і requirements залишаються в історії. Змінюється їхній status, але вони не видаляються.
+Use:
+- global project/system overview;
+- module index;
+- module relationship map;
+- individual module cards;
+- inputs and outputs;
+- dependencies and impacts;
+- nested submodules;
+- navigation indexes.
 
-## 9. Human review
+When new information arrives, first determine whether it extends an existing module. Create a new module only when genuinely new scope exists.
 
-Human review обов'язковий для:
-- medium/low-confidence виправлень транскрипції
-- невирішених суперечностей
-- inferred requirements
-- inferred decisions
-- змін, які суттєво впливають на встановлену architecture або business logic
+Do not load the entire repository when a smaller module-specific context is sufficient.
+
+## 6. Traceability
+
+Required source format:
+
+Source: CALL-YYYY-MM-DD-NNN
+
+Where practical include transcript location, evidence, related IDs and status.
+
+Agent inference must never silently become project fact.
+
+## 7. Conflicts and history
+
+Conflicts remain explicit.
+
+Do not silently rewrite history to make contradictory statements disappear.
+
+When newer evidence explicitly supersedes an older item, mark the old item SUPERSEDED while preserving traceability.
+
+When unresolved, keep the conflict open.
+
+## 8. Authoritative project artifacts
+
+If the project explicitly designates an artifact as authoritative, it has priority over earlier discussion when the two conflict.
+
+For the current strategy work, the final strategy diagram is the higher-priority source for unresolved strategy-rule differences.
+
+## 9. Navigation
+
+00_INDEX exists so an agent can find the right knowledge without reading the entire repository.
+
+Indexes must be updated whenever new knowledge or a new CALL is added.
+
+## 10. Completion statuses
+
+PROCESSED — all mandatory checks passed.
+
+NEEDS_REVIEW — processing completed but review items remain.
+
+BLOCKED — a mandatory step could not be completed.
+
+## 11. Repository naming
+
+00_INDEX
+01_RAW_TRANSCRIPTS — canonical corrected transcripts only; legacy/compatibility name
+02_KNOWLEDGE
+03_DECISIONS
+04_OPEN_QUESTIONS
+05_CONFLICTS
+99_SYSTEM
+
+INBOX is not part of the processing model and must not be used to store transcripts.
