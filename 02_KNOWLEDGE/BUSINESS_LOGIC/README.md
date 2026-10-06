@@ -1,3 +1,5 @@
 # BUSINESS_LOGIC / README.md
 
-This directory is managed by the Project Knowledge Agent.
+Цей каталог керується Project Knowledge Agent.
+
+Тут зберігаються business rules та логіка роботи системи, отримані з підтверджених джерел.
