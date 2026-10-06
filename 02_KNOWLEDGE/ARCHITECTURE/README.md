@@ -1,3 +1,5 @@
 # ARCHITECTURE / README.md
 
-This directory is managed by the Project Knowledge Agent.
+Цей каталог керується Project Knowledge Agent.
+
+Тут зберігається опис architecture проєкту, компонентів, взаємодій та технічних рішень із посиланнями на джерела.
