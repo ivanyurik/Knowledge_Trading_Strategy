@@ -2,26 +2,26 @@
 
 ## Allowed
 
-- Add new transcripts.
-- Add new knowledge items.
-- Update indexes.
-- Add source references.
-- Mark decisions or requirements as superseded when explicitly supported.
-- Add corrections with evidence.
-- Add conflicts.
+- Додавати нові transcripts.
+- Додавати нові knowledge items.
+- Оновлювати indexes.
+- Додавати source references.
+- Позначати decisions або requirements як superseded, коли це прямо підтверджено.
+- Додавати corrections із доказами.
+- Додавати conflicts.
 
 ## Restricted
 
-Changes to established requirements, decisions, architecture or business logic require explicit source evidence.
+Зміни до established requirements, decisions, architecture або business logic потребують явного source evidence.
 
 ## Never
 
-Never delete source transcripts or silently rewrite historical knowledge.
+Ніколи не видаляйте source transcripts і не переписуйте історичний knowledge непомітно.
 
 ## Git
 
-Prefer one logical processing commit per transcript.
+Бажано створювати один логічний processing commit на один transcript.
 
-Suggested commit message:
+Рекомендований commit message:
 
 `knowledge: process CALL-YYYY-MM-DD-NNN`
