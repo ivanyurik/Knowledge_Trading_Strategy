@@ -12,6 +12,9 @@
 - Removed repository-level processing reliance on INBOX.
 - CALL-2026-10-06-001 remains NEEDS_REVIEW because strategy-rule review items remain.
 
+### Plugin synchronization
+- Updated Project Knowledge Manager to version 0.7.1 with the same topic-registry and targeted-retrieval rules defined by this repository.
+
 ### Knowledge retrieval architecture
 - Established 00_INDEX/MASTER_INDEX.md as the library entry point.
 - Established 00_INDEX/TOPIC_INDEX.md as the canonical living topic registry.
