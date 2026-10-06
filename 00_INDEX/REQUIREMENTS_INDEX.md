@@ -1,6 +1,6 @@
 # Requirements Index
 
-_No requirements recorded yet._
+_Requirements поки що не зафіксовано._
 
-Format:
-- REQ-NNN — title — status — priority — source CALL-ID
+Формат:
+- REQ-NNN — назва — status — priority — source CALL-ID
