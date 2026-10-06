@@ -1,3 +1,5 @@
 # WORKFLOWS / README.md
 
-This directory is managed by the Project Knowledge Agent.
+Цей каталог керується Project Knowledge Agent.
+
+Тут зберігаються описані workflows, послідовності дій та процеси системи.
