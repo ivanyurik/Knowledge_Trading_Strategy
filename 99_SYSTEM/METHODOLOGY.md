@@ -1,8 +1,8 @@
 # Knowledge Base Methodology
 
-## 1. Purpose
+## 1. Призначення
 
-This repository is the long-term memory of the project. It stores meeting transcripts as primary evidence and maintains a structured, searchable knowledge layer above them.
+Цей репозиторій є довгостроковою пам'яттю проєкту. Він зберігає транскрипти зустрічей як первинні докази та підтримує над ними структурований і придатний для пошуку knowledge layer.
 
 ## 2. Source hierarchy
 
@@ -14,53 +14,57 @@ This repository is the long-term memory of the project. It stores meeting transc
 6. Proposal
 7. Agent inference
 
-Inference must never silently become project truth.
+Inference ніколи не може непомітно стати фактом проєкту.
 
 ## 3. Layers
 
 ### Layer 1 — RAW SOURCE
-Original transcript exactly as received. Never rewrite, summarize over, or delete it.
+
+Оригінальний транскрипт у точному вигляді, у якому його отримано. Його не можна переписувати, замінювати резюме або видаляти.
 
 ### Layer 2 — CLEAN SOURCE
-Optional corrected transcript representation. Corrections must preserve the original wording and explain why a correction is justified.
+
+Необов'язкове виправлене представлення транскрипту. Кожне виправлення має зберігати оригінальний текст і пояснювати, чому виправлення обґрунтоване.
 
 ### Layer 3 — STRUCTURED KNOWLEDGE
-Requirements, decisions, business rules, architecture, workflows, assumptions, risks, questions and conflicts.
+
+Requirements, decisions, business rules, architecture, workflows, assumptions, risks, questions і conflicts.
 
 ### Layer 4 — NAVIGATION
-Indexes that let an agent locate relevant files without reading the whole repository.
+
+Індекси, які дозволяють agent швидко знаходити потрібні файли без читання всього репозиторію.
 
 ## 4. Immutable source rule
 
-The original transcript is evidence. It must remain recoverable exactly as supplied.
+Оригінальний транскрипт є доказом. Він має залишатися доступним для відновлення в точному вигляді, у якому був отриманий.
 
 ## 5. Traceability
 
-Every structured item must contain:
-- unique ID
+Кожен структурований елемент повинен містити:
+- унікальний ID
 - status
 - source transcript ID
-- source location when available
+- source location, якщо доступна
 - date
-- confidence where interpretation is involved
+- confidence, якщо використовується інтерпретація
 
 ## 6. Conflict handling
 
-Never resolve historical contradictions by silently overwriting the old information. Record both statements, link them, and mark the newer decision as superseding the older one only when the discussion explicitly establishes that.
+Не можна вирішувати історичні суперечності шляхом непомітного перезапису старої інформації. Потрібно зберегти обидва твердження, пов'язати їх і позначити новіше рішення як таке, що замінює попереднє, лише якщо це прямо випливає з обговорення.
 
 ## 7. Deduplication
 
-Do not create duplicate knowledge documents for the same stable fact. Update the existing knowledge item and add the new source reference.
+Не створюйте дублікати knowledge-документів для одного стабільного факту. Оновлюйте наявний knowledge item і додавайте нове source reference.
 
 ## 8. Historical preservation
 
-Superseded decisions and requirements remain in history. Mark their status instead of deleting them.
+Superseded decisions і requirements залишаються в історії. Змінюється їхній status, але вони не видаляються.
 
 ## 9. Human review
 
-Human review is required for:
-- medium/low-confidence transcription corrections
-- unresolved contradictions
+Human review обов'язковий для:
+- medium/low-confidence виправлень транскрипції
+- невирішених суперечностей
 - inferred requirements
 - inferred decisions
-- changes that materially alter established architecture or business logic
+- змін, які суттєво впливають на встановлену architecture або business logic
