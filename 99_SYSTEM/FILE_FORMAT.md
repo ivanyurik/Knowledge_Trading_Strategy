@@ -1,87 +1,50 @@
 # File Format Specification
 
-## Call
+## Canonical transcript
 
-`CALL-YYYY-MM-DD-NNN`
+Format: CALL-YYYY-MM-DD-NNN.md
+Location: 01_RAW_TRANSCRIPTS/YYYY/MM/
+The file contains the corrected canonical transcript, not raw ASR.
 
-Обов'язкові секції:
-
+Recommended sections:
 1. Metadata
-2. Original Transcript
-3. Transcription Corrections
-4. Summary
-5. Decisions
-6. Requirements
-7. Business Rules
-8. Architecture
-9. Workflows
-10. Assumptions
-11. Risks
-12. Open Questions
-13. Conflicts
-14. Related Knowledge
-15. Processing Report
+2. Corrected Transcript
+3. NEEDS_REVIEW markers where required
+4. Processing notes when useful for traceability
 
-## Requirement
+Do not add raw transcript or raw-vs-canonical comparison layers.
 
-`REQ-NNN`
+## Knowledge item
 
-Поля:
-- ID
-- Title
-- Description
-- Status
-- Priority
-- Source
-- Source location
-- Related items
+Knowledge items live in the appropriate 02_KNOWLEDGE module.
+Recommended fields: ID, Title, Description/Rule, Status, Source, Source location, Related items, Confidence when interpretation is involved.
 
 ## Decision
 
-`DEC-NNN`
+DEC-YYYY-MM-DD-NNN.md
+Fields: ID, Decision, Status, Rationale, Source, Supersedes, Related items.
 
-Поля:
-- ID
-- Decision
-- Status
-- Rationale
-- Source
-- Supersedes
-- Related items
+## Requirement
 
-## Business rule
+REQ-NNN.md
+Fields: ID, Title, Description, Status, Priority, Source, Source location, Related items.
 
-`BR-NNN`
+## Business Rule
 
-Поля:
-- ID
-- Rule
-- Conditions
-- Result
-- Status
-- Source
+BR-NNN.md
+Fields: ID, Rule, Conditions, Result, Status, Source, Related items.
 
-## Question
+## Open Question
 
-`Q-NNN`
-
-Поля:
-- ID
-- Question
-- Status
-- Context
-- Source
-- Related items
+OQ-YYYY-MM-DD-NNN.md
+Fields: ID, Question, Status, Context, Source, Related items.
 
 ## Conflict
 
-`CONFLICT-NNN`
+CON-YYYY-MM-DD-NNN.md
+Fields: ID, Statement A, Source A, Statement B, Source B, Status, Required resolution.
 
-Поля:
-- ID
-- Statement A
-- Source A
-- Statement B
-- Source B
-- Status
-- Required resolution
+## Processing Report
+
+Location: 99_SYSTEM/PROCESSING_REPORTS/CALL-YYYY-MM-DD-NNN.md
+Records input validation, correction gate, category results, knowledge updates, conflicts, review items and completion status.
