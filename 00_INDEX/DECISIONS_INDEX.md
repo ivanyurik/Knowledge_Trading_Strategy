@@ -1,6 +1,5 @@
 # Decisions Index
 
-_Рішень поки що не зафіксовано._
+- DEC-2026-10-06-001 — processing and documentation decisions from CALL-2026-10-06-001 — CONFIRMED
 
-Формат:
-- DEC-NNN — назва — status — source CALL-ID
+Reuse an existing decision ID when a later CALL extends the same decision. Create a new ID only for genuinely new decisions.
