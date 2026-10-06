@@ -1,7 +1,7 @@
 # Topic Index
 
-This index maps project topics to knowledge and source files.
+Цей індекс пов'язує теми проєкту зі структурованими knowledge-файлами та файлами CALL.
 
-_No topics indexed yet._
+_Поки що теми не індексовано._
 
-When adding a topic, link both the structured knowledge and relevant CALL files.
+Під час додавання теми необхідно вказувати як структуроване знання, так і відповідні CALL-файли.
