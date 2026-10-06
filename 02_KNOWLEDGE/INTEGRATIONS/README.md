@@ -1,3 +1,5 @@
 # INTEGRATIONS / README.md
 
-This directory is managed by the Project Knowledge Agent.
+Цей каталог керується Project Knowledge Agent.
+
+Тут зберігається документація integrations із зовнішніми системами, сервісами та API.
