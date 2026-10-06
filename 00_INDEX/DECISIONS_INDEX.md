@@ -1,6 +1,6 @@
 # Decisions Index
 
-_No decisions recorded yet._
+_Рішень поки що не зафіксовано._
 
-Format:
-- DEC-NNN — title — status — source CALL-ID
+Формат:
+- DEC-NNN — назва — status — source CALL-ID
