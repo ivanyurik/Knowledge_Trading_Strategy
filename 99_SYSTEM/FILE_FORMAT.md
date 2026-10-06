@@ -4,7 +4,7 @@
 
 `CALL-YYYY-MM-DD-NNN`
 
-Required sections:
+Обов'язкові секції:
 
 1. Metadata
 2. Original Transcript
@@ -26,7 +26,7 @@ Required sections:
 
 `REQ-NNN`
 
-Fields:
+Поля:
 - ID
 - Title
 - Description
@@ -40,7 +40,7 @@ Fields:
 
 `DEC-NNN`
 
-Fields:
+Поля:
 - ID
 - Decision
 - Status
@@ -53,7 +53,7 @@ Fields:
 
 `BR-NNN`
 
-Fields:
+Поля:
 - ID
 - Rule
 - Conditions
@@ -65,7 +65,7 @@ Fields:
 
 `Q-NNN`
 
-Fields:
+Поля:
 - ID
 - Question
 - Status
@@ -77,7 +77,7 @@ Fields:
 
 `CONFLICT-NNN`
 
-Fields:
+Поля:
 - ID
 - Statement A
 - Source A
