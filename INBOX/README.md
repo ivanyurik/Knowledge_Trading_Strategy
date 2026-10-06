@@ -1,9 +1,9 @@
 # INBOX
 
-Place newly received meeting transcripts here.
+Сюди додаються нові отримані transcripts зустрічей.
 
-The Knowledge Agent should process each new transcript and then move/store the immutable source under:
+Knowledge Agent повинен обробити кожен новий transcript, а потім перемістити/зберегти immutable source у:
 
 `01_RAW_TRANSCRIPTS/YYYY/MM/`
 
-Do not manually edit a transcript after processing.
+Не редагуйте transcript вручну після обробки.
