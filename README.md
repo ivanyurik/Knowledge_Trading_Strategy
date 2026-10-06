@@ -1,19 +1,19 @@
 # Knowledge Trading Strategy
 
-Transcript-first project knowledge base for the trading strategy project.
+База знань проєкту торгової стратегії, побудована за принципом **transcript-first**.
 
-## Core principle
+## Основний принцип
 
-Raw transcripts are immutable source material. Structured knowledge is derived from them and must always retain traceability to the source.
+Сирі транскрипти є незмінним первинним джерелом. Структуровані знання створюються на їх основі та завжди повинні зберігати зв'язок із джерелом.
 
-## Workflow
+## Робочий процес
 
-1. Put a new transcript into `INBOX/`.
-2. The Knowledge Agent processes it according to `99_SYSTEM/AGENT_INSTRUCTIONS.md`.
-3. The original transcript is preserved.
-4. Obvious transcription errors may be corrected with an auditable correction record.
-5. Requirements, decisions, business rules, architecture, workflows, assumptions, risks, questions and conflicts are extracted.
-6. Indexes are updated.
-7. Every extracted fact links back to its source transcript.
+1. Додати новий транскрипт до `INBOX/`.
+2. Knowledge Agent обробляє його відповідно до `99_SYSTEM/AGENT_INSTRUCTIONS.md`.
+3. Оригінальний транскрипт зберігається без змін.
+4. Очевидні помилки транскрипції можуть бути виправлені із фіксацією кожного виправлення.
+5. Витягуються requirements, decisions, business rules, architecture, workflows, assumptions, risks, questions і conflicts.
+6. Оновлюються індекси.
+7. Кожен витягнутий факт має посилання на відповідний транскрипт.
 
-See `99_SYSTEM/METHODOLOGY.md` for the complete operating model.
+Повна операційна модель описана в `99_SYSTEM/METHODOLOGY.md`.
