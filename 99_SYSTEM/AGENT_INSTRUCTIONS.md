@@ -47,6 +47,14 @@
 - не змінюй facts проєкту без source reference
 - не об'єднуй окремі зустрічі в один source transcript
 
+## Mandatory transcription gate
+
+When a transcript is supplied, transcription review is mandatory and must occur before the processed transcript is treated as final knowledge input or the processing is reported as complete.
+
+The agent must inspect the transcript for hallucinations, mangled technical terms, names, numbers, product names and contextually impossible phrases. HIGH-confidence errors must be corrected in a separate correction layer; MEDIUM-confidence cases must be preserved and flagged; LOW-confidence cases must not be guessed. The original transcript must remain unchanged.
+
+If transcription review cannot be completed, the processing status must be `NEEDS_REVIEW` or `BLOCKED`, never `PROCESSED`.
+
 ## Hallucination policy
 
 Виправлення транскрипції дозволене лише тоді, коли задумане формулювання практично однозначно випливає з контексту аудіо або транскрипту.
