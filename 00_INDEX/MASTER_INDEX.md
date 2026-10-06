@@ -21,8 +21,8 @@ ivanyurik/Knowledge_Trading_Strategy
 
 ## Recent calls
 
-_No calls processed yet._
+_Поки що жоден CALL не оброблено._
 
 ## Agent entry point
 
-Read `99_SYSTEM/AGENT_INSTRUCTIONS.md` before processing this repository.
+Перед обробкою цього репозиторію прочитайте `99_SYSTEM/AGENT_INSTRUCTIONS.md`.
