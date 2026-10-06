@@ -1,3 +1,5 @@
 # DATA / README.md
 
-This directory is managed by the Project Knowledge Agent.
+Цей каталог керується Project Knowledge Agent.
+
+Тут зберігається інформація про data-моделі, структури, джерела та правила обробки даних.
