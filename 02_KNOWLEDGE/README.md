@@ -17,4 +17,6 @@
 - не суперечити наявному knowledge без explicit conflict;
 - розширювати існуючий item, якщо knowledge вже існує.
 
-Agent не повинен створювати дублікати лише через новий transcript.
+`00_INDEX/TOPIC_INDEX.md` є маршрутизатором до цього knowledge. Topic entry не дублює зміст KB-файлу.
+
+Agent не повинен створювати дублікати лише через новий transcript або нову назву тієї самої теми.
