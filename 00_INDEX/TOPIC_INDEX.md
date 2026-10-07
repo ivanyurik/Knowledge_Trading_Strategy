@@ -136,3 +136,74 @@ The Topic Index is a living registry. It grows by adding or updating topic entri
 A topic should be indexed only when it has enough information value to help future retrieval.
 
 Every topic entry must remain traceable to canonical CALL-ID sources.
+
+---
+
+### TOPIC-DIV-001 — Divergence Lifecycle and Invalidation
+**Aliases:** divergence, hidden divergence, classic divergence, divergence box
+
+**Related topics:** PivHist, Market Phase, Alert Workflow, Multi-Timeframe Entry Preparation
+
+**Occurrences / Sources:**
+- `CALL-2026-10-07-001`
+
+**Structured knowledge:**
+- `KB-BL-002`
+- `KB-WF-001`
+
+**Decisions:** None currently indexed
+
+**Open Questions:**
+- `OQ-2026-10-07-001`
+
+**Conflicts:**
+- `CON-2026-10-07-001`
+
+**Status:** ACTIVE / NEEDS_REVIEW
+
+---
+
+### TOPIC-ALERT-001 — Divergence Alert Workflow
+**Aliases:** alert workflow, divergence alerts, three alert types
+
+**Related topics:** Divergence Lifecycle and Invalidation, PivHist, Multi-Timeframe Entry Preparation
+
+**Occurrences / Sources:**
+- `CALL-2026-10-07-001`
+
+**Structured knowledge:**
+- `KB-WF-001`
+
+**Decisions:** None currently indexed
+
+**Open Questions:**
+- `OQ-2026-10-07-001`
+
+**Conflicts:**
+- `CON-2026-10-07-001`
+
+**Status:** ACTIVE / NEEDS_REVIEW
+
+---
+
+### TOPIC-MTF-001 — Multi-Timeframe Entry Preparation
+**Aliases:** 12H + 4H, multi-timeframe divergence, pending divergence entry
+
+**Related topics:** Divergence Lifecycle and Invalidation, Market Phase, Alert Workflow
+
+**Occurrences / Sources:**
+- `CALL-2026-10-07-001`
+
+**Structured knowledge:**
+- `KB-BL-002`
+- `KB-WF-001`
+
+**Decisions:** None currently indexed
+
+**Open Questions:**
+- `OQ-2026-10-07-001`
+
+**Conflicts:**
+- `CON-2026-10-07-001`
+
+**Status:** ACTIVE / NEEDS_REVIEW
