@@ -2,6 +2,14 @@
 
 ## 2026-10-07
 
+### Hard source-boundary rule
+- Added a mandatory fail-closed rule forbidding external web/internet search for project facts, retrieval, processing and validation.
+- Canonical source remains exclusively `ivanyurik/Knowledge_Trading_Strategy`.
+- External sources are allowed only when the user explicitly requests external research for a specific task and must remain clearly separated from repository-confirmed facts.
+- Missing repository evidence must not be filled from web, memory, inference or other external sources.
+
+## 2026-10-07
+
 ### CALL-2026-10-07-001 processing
 - Added corrected canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-001.md`.
 - Added `KB-BL-002` covering divergence lifecycle, invalidation and multi-timeframe entry preparation.
