@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-07
+
+### CALL-2026-10-07-001 processing
+- Added corrected canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-001.md`.
+- Added `KB-BL-002` covering divergence lifecycle, invalidation and multi-timeframe entry preparation.
+- Added `KB-WF-001` covering the three-class divergence alert workflow.
+- Added `OQ-2026-10-07-001` for unresolved ATR/stop, divergence-point, alert and multi-timeframe questions.
+- Added `CON-2026-10-07-001` for explicit ambiguities around ATR stop formulation, weekly trend scope and alert formalization.
+- Updated Topic Index and retrieval indexes.
+- Processing status remains NEEDS_REVIEW because unresolved/medium-confidence items remain.
+
 ## 2026-10-06
 
 ### Project Knowledge Manager synchronization
