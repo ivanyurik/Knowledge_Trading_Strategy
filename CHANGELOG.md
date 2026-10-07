@@ -2,6 +2,13 @@
 
 ## 2026-10-07
 
+### CALL-2026-10-07-001 repository reconciliation
+- Reconciled the existing CALL index/knowledge references with the restored canonical transcript at `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-001.md`.
+- Confirmed existing KB/OQ/CON/topic-routing artifacts are reused; no duplicate knowledge IDs or topic artifacts were created.
+- Confirmed final processing state remains `NEEDS_REVIEW` because the documented review items remain unresolved.
+
+## 2026-10-07
+
 ### Hard source-boundary rule
 - Added a mandatory fail-closed rule forbidding external web/internet search for project facts, retrieval, processing and validation.
 - Canonical source remains exclusively `ivanyurik/Knowledge_Trading_Strategy`.
