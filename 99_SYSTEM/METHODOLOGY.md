@@ -12,6 +12,17 @@ The final user-facing goal is:
 
 `question → topic → relevant sources → targeted reading → evidence-based answer`
 
+## 1A. Hard source boundary
+
+For project facts and all project retrieval/processing, the canonical repository `ivanyurik/Knowledge_Trading_Strategy` is the sole source of truth.
+
+- External web/internet search is forbidden by default.
+- External websites, other repositories, forks, mirrors, Miro, memory, previous conversations and other connected apps must not be used as project evidence.
+- Missing repository evidence must result in: **"У ivanyurik/Knowledge_Trading_Strategy це не підтверджено."**
+- Never use web search as a fallback.
+- External research is permitted only when the user explicitly requests it for a specific task, and it must remain clearly separated from confirmed repository facts.
+- If an external source is mandatory to proceed and the user has not explicitly authorized external research, fail closed with `BLOCKED`.
+
 ## 2. Three-layer architecture
 
 Keep the repository intentionally small and stable.
