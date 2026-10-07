@@ -1,3 +1,10 @@
+## 2026-10-07
+
+### Canonical transcript storage format hard lock
+- Added a mandatory turn-level transcript format to `99_SYSTEM/AGENT_INSTRUCTIONS.md`.
+- Canonical transcripts must use `## Transcript` and sequential records `001 — Спікер N: ...` in exact chronological order.
+- Speaker-grouped transcript sections are no longer an acceptable canonical storage format.
+- If reliable source turn boundaries are unavailable, the transcript remains `NEEDS_REVIEW`; turn boundaries must never be invented.
 # Changelog
 
 ## 2026-10-07
