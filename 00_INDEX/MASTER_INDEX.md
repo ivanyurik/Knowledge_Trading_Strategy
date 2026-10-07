@@ -43,6 +43,24 @@ AI не повинен читати всі транскрипції, якщо To
 
 ## Current CALLs
 
+### CALL-2026-10-07-001
+Status: `NEEDS_REVIEW`
+
+Canonical transcript:
+`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-001.md`
+
+Related knowledge:
+- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-002.md`
+- `02_KNOWLEDGE/WORKFLOWS/KB-WF-001.md`
+
+Related decisions/questions/conflicts:
+- No new decision created.
+- `04_OPEN_QUESTIONS/OQ-2026-10-07-001.md`
+- `05_CONFLICTS/CON-2026-10-07-001.md`
+
+Processing report:
+- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-07-001.md`
+
 ### CALL-2026-10-06-001
 Status: `NEEDS_REVIEW`
 
