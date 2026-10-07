@@ -58,6 +58,61 @@ The only transcript artifact stored in GitHub is the corrected canonical transcr
 
 The word RAW in the directory name is legacy/compatibility naming.
 
+## 2.1 HARD LOCK — CANONICAL TRANSCRIPT STORAGE FORMAT
+
+Every canonical transcript stored in `01_RAW_TRANSCRIPTS/YYYY/MM/` MUST use the same turn-level Markdown format. This is a mandatory storage contract for retrieval and auditability.
+
+### Required format
+
+1. File header:
+   - `# CALL-YYYY-MM-DD-NNN — Corrected Canonical Transcript`
+   - `**Status:** PROCESSED | NEEDS_REVIEW`
+   - optional short metadata, but no transcript content before the `## Transcript` heading.
+
+2. Transcript body MUST begin with:
+   `## Transcript`
+
+3. Every spoken turn MUST be stored as one sequentially numbered record:
+   `001 — Спікер 1: ...`
+   `002 — Спікер 2: ...`
+   `003 — Спікер 1: ...`
+
+4. Turn numbers MUST:
+   - start at `001`;
+   - increase strictly by 1;
+   - remain stable after correction unless the source transcript itself establishes a different turn boundary;
+   - never be reset for a new speaker or section.
+
+5. Speaker identity MUST appear on every turn. Do not group the transcript into `## Спікер 1`, `## Спікер 2` sections as a substitute for turn-level records.
+
+6. Preserve chronological order exactly. Do not reorganize turns by topic, speaker, or semantic category.
+
+7. One turn record may wrap across multiple visual lines, but it remains one numbered record. Do not split a single source utterance merely because it wraps on screen.
+
+8. Do not insert summaries, extracted knowledge, interpretations, or rewritten topic sections into the transcript body. Extraction belongs in `02_KNOWLEDGE/`, `03_DECISIONS/`, `04_OPEN_QUESTIONS/`, `05_CONFLICTS/` and indexes.
+
+9. Correction is allowed inside a turn, but the turn remains traceable to its original chronological position. Medium-confidence passages MUST be marked inline with `[NEEDS_REVIEW: ...]`; low-confidence content MUST NOT be guessed.
+
+10. If the source material does not provide reliable speaker-turn boundaries, the agent MUST NOT invent them. Keep the transcript `NEEDS_REVIEW` and record the format/boundary issue in the Processing Report until a source with reliable turn boundaries is available.
+
+11. Retrieval MUST rely on these numbered turn records for exact-source lookup. Knowledge artifacts may summarize the transcript, but the canonical transcript remains the source for exact wording and chronology.
+
+### Canonical example
+
+```markdown
+## Transcript
+
+001 — Спікер 1: Привіт! У мене є питання щодо таблиці.
+
+002 — Спікер 2: Так, покажи, будь ласка.
+
+003 — Спікер 1: Я дав йому рівень Фібоначчі, тобто 0,5.
+
+004 — Спікер 2: В індикаторі це видно досить швидко.
+```
+
+This format is a HARD LOCK. Future canonical transcripts that do not comply MUST NOT receive `PROCESSED` status.
+
 ## 3. Transcription correction gate
 
 Review the entire supplied transcript before extracting knowledge.
