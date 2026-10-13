@@ -6,3 +6,4 @@
 Conflicts remain explicit and traceable. Do not silently resolve them. When an authoritative artifact explicitly supersedes an earlier discussion, preserve the historical source and record the newer priority.
 - `CON-2026-10-04-001` — conflicting ATR-distance criteria, Global Target sampling and visual/filter mismatch from `CALL-2026-10-04-001` — `NEEDS_REVIEW`
 - `CON-2026-10-05-001` — short-order eligibility and phase-marker price-field ambiguity from `CALL-2026-10-05-001` — `NEEDS_REVIEW`
+- `CON-2026-10-07-002` — spot-BTC threshold direction, cross-call short eligibility and diagram scope from `CALL-2026-10-07-002` — `NEEDS_REVIEW`
