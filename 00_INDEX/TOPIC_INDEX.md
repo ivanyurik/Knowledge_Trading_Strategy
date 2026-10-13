@@ -119,6 +119,7 @@
 
 **Occurrences / Sources:**
 - `CALL-2026-10-06-001`
+- `CALL-2026-10-07-002`
 - `CALL-2026-10-05-002`
 - `CALL-2026-10-05-001`
 
@@ -131,6 +132,7 @@
 **Open Questions:**
 - `OQ-2026-10-06-001`
 - `OQ-2026-10-05-002`
+- `OQ-2026-10-07-002`
 - `OQ-2026-10-05-001`
 
 **Conflicts:**
@@ -299,5 +301,29 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 - `OQ-2026-10-05-003`
 
 **Conflicts:** None currently indexed
+
+**Status:** ACTIVE / NEEDS_REVIEW
+
+
+---
+
+### TOPIC-SPOT-BTC-001 — Spot BTC Accumulation and Exit Rule
+**Aliases:** spot BTC, 50% BTC target, BTC spot purchase, missed market peak
+
+**Related topics:** Authoritative Final Strategy Diagram, Divergence Lifecycle and Invalidation, Phase Start Marker and Short Eligibility
+
+**Occurrences / Sources:**
+- `CALL-2026-10-07-002`
+
+**Structured knowledge:**
+- `KB-BL-005`
+
+**Decisions:** None currently indexed
+
+**Open Questions:**
+- `OQ-2026-10-07-002`
+
+**Conflicts:**
+- `CON-2026-10-07-002`
 
 **Status:** ACTIVE / NEEDS_REVIEW
