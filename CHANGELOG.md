@@ -2,6 +2,12 @@
 
 ## 2026-10-04
 
+### CALL-2026-10-05-003 — diagram readability and future visualization
+- Added corrected canonical transcript with 16 numbered source turns and explicit review markers for incomplete visual context.
+- Extended `KB-WF-002` with short-arrow-label guidance, full-table comparison and the distinction between current reference diagrams and a proposed future website.
+- Added `OQ-2026-10-05-003` and extended `TOPIC-MIRO-EDIT-001`; no implementation status or final architecture decision was inferred.
+- Final status remains NEEDS_REVIEW pending confirmation of the future website's role and UI conventions.
+
 ### CALL-2026-10-05-002 — Miro diagram editing workflow
 - Added corrected canonical transcript with 86 numbered source turns; uncertain board names, account/access claims and ASR-corrupted terms remain marked NEEDS_REVIEW.
 - Added `KB-WF-002` and `OQ-2026-10-05-002` for safe Miro editing, exact diagram identity, plugin access and validation.
