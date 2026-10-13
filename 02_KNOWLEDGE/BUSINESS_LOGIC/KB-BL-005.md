@@ -27,5 +27,14 @@ This is a presentation/integration goal discussed in the call; exact block IDs, 
 The same conversation says short orders are not currently allowed while a virtual trade's stop condition remains active. This differs in wording/scope from the prior CALL's discussion of a short prohibition after the first impulse take-profit beyond the zero Fibonacci level.
 
 Resolution: do not merge these statements into a single universal rule. Keep the state/phase conditions open until checked against the authoritative final diagram.
+## Additional source details — purchase timing and 50% cap
 
-Source: CALL-2026-10-07-002, turns 021–034, 048–055, 061–080; related historical source: CALL-2026-10-05-001.
+The later discussion adds the following candidate rules:
+- A purchase may be triggered at a qualifying long entry and also at the take-profit of an impulse long, using a trigger-limit mechanism as described by the participants.
+- The rationale for buying after take-profit is that the trade has released new funds, which are then allocated to spot BTC.
+- If the current spot-BTC share is already 50% or higher, the proposed flow skips the purchase.
+- A candidate accumulation interval is described from the first bullish 1W divergence above the bottom until the next bearish 1W divergence. The discussion shows that the decision branch and exact interval logic were not clearly represented in the diagram.
+- The stated long-horizon goal remains to hold spot BTC until the market peak, with a fallback exit if the peak is missed. The exact peak-miss signal is not formalized here.
+
+[NEEDS_REVIEW: confirm whether these triggers apply at all long entries or only within the accumulation interval, and verify the exact trigger label, exception order, threshold and exit signal against the authoritative Telegram specification/diagram.]
+Source: CALL-2026-10-07-002, turns 021–034, 048–055, 061–080; related historical source: CALL-2026-10-05-001.; CALL-2026-10-07-003
