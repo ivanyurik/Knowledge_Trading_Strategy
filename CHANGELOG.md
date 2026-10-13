@@ -2,6 +2,12 @@
 
 ## 2026-10-04
 
+### CALL-2026-10-04-002 — nested divergence pairing and post-close break-even review
+- Added corrected canonical transcript with all 70 source turns in chronological, numbered format; uncertain terminology remains marked NEEDS_REVIEW.
+- Extended `KB-BL-002` with the one-to-one nested divergence pairing constraint, unsuccessful-touch semantics and post-close break-even review.
+- Added `OQ-2026-10-04-002`; reused existing divergence and multi-timeframe topics rather than creating duplicate topics or a new decision.
+- Final processing status remains NEEDS_REVIEW pending confirmation of exact filters, support definitions and source-table measurements.
+
 ### CALL-2026-10-04-001 — guaranteed-divergence and Global Target review
 - Added corrected canonical transcript in sequential turn-level format (96 source turns); unresolved ASR passages remain explicitly marked NEEDS_REVIEW.
 - Added `KB-BL-003` for guaranteed-divergence classification and Global Target data semantics.
