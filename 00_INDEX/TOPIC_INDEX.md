@@ -146,18 +146,22 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Occurrences / Sources:**
 - `CALL-2026-10-07-001`
+- `CALL-2026-10-04-001`
 
 **Structured knowledge:**
 - `KB-BL-002`
+- `KB-BL-003`
 - `KB-WF-001`
 
 **Decisions:** None currently indexed
 
 **Open Questions:**
 - `OQ-2026-10-07-001`
+- `OQ-2026-10-04-001`
 
 **Conflicts:**
 - `CON-2026-10-07-001`
+- `CON-2026-10-04-001`
 
 **Status:** ACTIVE / NEEDS_REVIEW
 
@@ -205,5 +209,29 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Conflicts:**
 - `CON-2026-10-07-001`
+
+**Status:** ACTIVE / NEEDS_REVIEW
+
+
+---
+
+### TOPIC-GUAR-001 — Guaranteed Divergence Classification and Global Target Data
+**Aliases:** guaranteed divergence, guaranteed/non-guaranteed filter, Global Target event candle
+
+**Related topics:** Divergence Lifecycle and Invalidation, Multi-Timeframe Entry Preparation
+
+**Occurrences / Sources:**
+- `CALL-2026-10-04-001`
+
+**Structured knowledge:**
+- `KB-BL-003`
+
+**Decisions:** None currently indexed
+
+**Open Questions:**
+- `OQ-2026-10-04-001`
+
+**Conflicts:**
+- `CON-2026-10-04-001`
 
 **Status:** ACTIVE / NEEDS_REVIEW
