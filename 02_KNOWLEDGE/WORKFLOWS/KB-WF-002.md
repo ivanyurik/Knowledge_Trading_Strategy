@@ -28,4 +28,13 @@ The conversation highlights a recurring execution risk: the requester may omit d
 
 [NEEDS_REVIEW: confirm the exact Miro board/diagram name and whether the plugin has the necessary read/write permissions.]
 
-Source: CALL-2026-10-05-002, turns 044–054, 061–086.
+## Diagram readability and future visualization
+
+- Short labels may be placed directly on arrows when they make the flow easier to read; long explanatory text should not be placed on arrows if it makes the diagram crowded.
+- The discussion describes the current table/diagram as an “atlas” for understanding the strategy, while a future website may calculate/display arrow directions automatically.
+- The future website is discussed as a plan; the conversation does not decide that the reference table/diagram should be deleted once the site exists.
+- A change should be checked against the complete copied table, not only a few edited blocks.
+
+[NEEDS_REVIEW: final role of the reference diagram/table versus the future website is not decided in this source.]
+
+Source: CALL-2026-10-05-002, turns 044–054, 061–086; CALL-2026-10-05-003, turns 008–015.
