@@ -119,6 +119,7 @@
 
 **Occurrences / Sources:**
 - `CALL-2026-10-06-001`
+- `CALL-2026-10-05-002`
 - `CALL-2026-10-05-001`
 
 **Structured knowledge:**
@@ -129,6 +130,7 @@
 
 **Open Questions:**
 - `OQ-2026-10-06-001`
+- `OQ-2026-10-05-002`
 - `OQ-2026-10-05-001`
 
 **Conflicts:**
@@ -272,5 +274,28 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Conflicts:**
 - `CON-2026-10-05-001`
+
+**Status:** ACTIVE / NEEDS_REVIEW
+
+
+---
+
+### TOPIC-MIRO-EDIT-001 — Safe Miro Diagram Editing Workflow
+**Aliases:** Miro plugin editing, yes/no block cleanup, arrow labels
+
+**Related topics:** Authoritative Final Strategy Diagram, Modular Knowledge Architecture
+
+**Occurrences / Sources:**
+- `CALL-2026-10-05-002`
+
+**Structured knowledge:**
+- `KB-WF-002`
+
+**Decisions:** None currently indexed
+
+**Open Questions:**
+- `OQ-2026-10-05-002`
+
+**Conflicts:** None currently indexed
 
 **Status:** ACTIVE / NEEDS_REVIEW
