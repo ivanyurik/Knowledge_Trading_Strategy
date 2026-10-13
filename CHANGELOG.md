@@ -1,3 +1,14 @@
+# Changelog
+
+## 2026-10-04
+
+### CALL-2026-10-04-001 — guaranteed-divergence and Global Target review
+- Added corrected canonical transcript in sequential turn-level format (96 source turns); unresolved ASR passages remain explicitly marked NEEDS_REVIEW.
+- Added `KB-BL-003` for guaranteed-divergence classification and Global Target data semantics.
+- Added `OQ-2026-10-04-001` and `CON-2026-10-04-001` for unresolved ATR thresholds, Global Target measurement point, classifier mismatch and summary-data validation.
+- Extended the existing divergence topic and added `TOPIC-GUAR-001`; no decision was created because the ATR criteria conflict in the source.
+- Final processing status remains NEEDS_REVIEW; reported percentages were not treated as independently verified metrics.
+
 ## 2026-10-07
 
 ### Canonical transcript storage format hard lock
