@@ -8,3 +8,4 @@ Conflicts remain explicit and traceable. Do not silently resolve them. When an a
 - `CON-2026-10-05-001` — short-order eligibility and phase-marker price-field ambiguity from `CALL-2026-10-05-001` — `NEEDS_REVIEW`
 - `CON-2026-10-07-002` — spot-BTC threshold direction, cross-call short eligibility and diagram scope from `CALL-2026-10-07-002` — `NEEDS_REVIEW`
 - `CON-2026-10-07-003` — weekly-divergence ignore semantics, range-boundary rules and stop-method sample limitations from `CALL-2026-10-07-003` — `NEEDS_REVIEW`
+- `CON-2026-10-08-001` — spot-BTC threshold and accumulation/exit sequence ambiguity across CALL-2026-10-07-002 and CALL-2026-10-08-001 — `NEEDS_REVIEW`
