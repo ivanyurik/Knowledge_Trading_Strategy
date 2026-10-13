@@ -47,4 +47,22 @@ For a short setup discussed in the call:
 - The two timeframes are otherwise treated as independent.
 - A lower-timeframe divergence that appeared first may remain the active condition while the other timeframe later reaches its corresponding divergence point.
 
-Source: CALL-2026-10-07-001
+## Nested divergence pairing — source extension
+
+The later-reviewed conversation describes a one-to-one pairing constraint for nested divergences:
+
+- Only the nearest qualifying internal divergence is paired with one external divergence; the pair consists of two divergences.
+- A single 4H external divergence cannot be reused to pair with three successive 12H internal divergences.
+- Once a 12H divergence is paired inside a 4H divergence, that 4H divergence is no longer eligible as the external divergence for a later 12H divergence. A new external divergence is required for the next pair.
+- The same one-to-one constraint is described in the reverse direction for 4H divergences nested inside 12H divergences.
+- A touch of Classic Pending that does not produce a divergence at the relevant candle close is described as an unsuccessful touch; it consumes neither the external nor internal divergence slot.
+
+[NEEDS_REVIEW: verify the exact price/time filters for qualifying nested divergences and the event definition used by the data tables.]
+
+## Post-close break-even review
+
+The conversation asks to evaluate the first candle after the divergence-confirming candle close (and, in the 1D case, specifically after the 1D candle closes) that returns to the divergence appearance price. A return within the same unfinished/previous period is not considered equivalent to a return after the required candle close.
+
+The transcript also discusses a potential handling distinction for non-guaranteed cases depending on whether support exists. This is stated as a proposed workflow pending final data/statistics and is not promoted to a confirmed trading rule.
+
+Source: CALL-2026-10-07-001; CALL-2026-10-04-002
