@@ -36,5 +36,11 @@ No single final ATR inequality or implementation rule is confirmed by this CALL.
 - Resolve the ATR threshold inequality from an authoritative strategy artifact.
 - Reconcile the classifier output with manually reviewed examples.
 - Validate reported percentages against the underlying table.
+## ATR configuration and sample-size caveat — later source
 
-Source: CALL-2026-10-04-001, turns 011–036, 046–049, 076–087, 094–096.
+- When configuring the PivHist Monitor's guaranteed-divergence logic, the participant says to supply the ATR value used on the chart and ensure the ATR setting's timeframe matches the chart timeframe.
+- The conversation compares a strategy/PivHist stop with a separate manually adjusted stop. Participants state that the observed case where one method was hit and the other was not had occurred only once, and explicitly say one event is not enough to establish a statistical edge.
+- The source does not establish that either stop method is superior. More historical stop-out cases and consistent source data are required.
+
+[NEEDS_REVIEW: exact ATR input field and the precise meaning of the alternative/manual adjustment must be checked in the indicator settings and source tables.]
+Source: CALL-2026-10-04-001, turns 011–036, 046–049, 076–087, 094–096.; CALL-2026-10-07-003
