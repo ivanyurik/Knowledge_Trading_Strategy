@@ -11,3 +11,4 @@ Open questions remain traceable until explicitly resolved by source evidence.
 - OQ-2026-10-05-003 — future website versus reference diagram, arrow-label standards and automatic direction rendering — OPEN / NEEDS_REVIEW
 - OQ-2026-10-07-002 — spot-BTC purchase/exit criteria, threshold semantics and diagram integration — OPEN / NEEDS_REVIEW
 - OQ-2026-10-07-003 — range boundaries, weekly-divergence ignore semantics, ATR alignment and stop-method sample size — OPEN / NEEDS_REVIEW
+- OQ-2026-10-08-001 — bottom confirmation, spot-BTC purchase/exit sequence, threshold semantics and required repository permissions — OPEN / NEEDS_REVIEW
