@@ -68,19 +68,23 @@
 
 **Occurrences / Sources:**
 - `CALL-2026-10-06-001`
+- `CALL-2026-10-05-001`
 
 **Structured knowledge:**
 - `KB-ARCH-001`
 - `KB-BL-001`
+- `KB-BL-004`
 
 **Decisions:**
 - `DEC-2026-10-06-001`
 
 **Open Questions:**
 - `OQ-2026-10-06-001`
+- `OQ-2026-10-05-001`
 
 **Conflicts:**
 - `CON-2026-10-06-001`
+- `CON-2026-10-05-001`
 
 **Status:** ACTIVE / NEEDS_REVIEW
 
@@ -115,17 +119,21 @@
 
 **Occurrences / Sources:**
 - `CALL-2026-10-06-001`
+- `CALL-2026-10-05-001`
 
-**Structured knowledge:** None currently indexed
+**Structured knowledge:**
+- `KB-BL-004`
 
 **Decisions:**
 - `DEC-2026-10-06-001`
 
 **Open Questions:**
 - `OQ-2026-10-06-001`
+- `OQ-2026-10-05-001`
 
 **Conflicts:**
 - `CON-2026-10-06-001`
+- `CON-2026-10-05-001`
 
 **Status:** CONFIRMED as source-priority rule
 
@@ -240,5 +248,29 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Conflicts:**
 - `CON-2026-10-04-001`
+
+**Status:** ACTIVE / NEEDS_REVIEW
+
+
+---
+
+### TOPIC-PHASE-MARKER-001 — Phase Start Marker and Short Eligibility
+**Aliases:** Start Остановка + Flat, phase-start marker, short permission, impulse take-profit gate
+
+**Related topics:** PivHist, Authoritative Final Strategy Diagram, Divergence Lifecycle and Invalidation
+
+**Occurrences / Sources:**
+- `CALL-2026-10-05-001`
+
+**Structured knowledge:**
+- `KB-BL-004`
+
+**Decisions:** None currently indexed
+
+**Open Questions:**
+- `OQ-2026-10-05-001`
+
+**Conflicts:**
+- `CON-2026-10-05-001`
 
 **Status:** ACTIVE / NEEDS_REVIEW
