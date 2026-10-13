@@ -8,3 +8,4 @@ Open questions remain traceable until explicitly resolved by source evidence.
 - OQ-2026-10-04-002 — nested divergence pairing, failed Classic Pending touches, support definitions and post-close return measurement — OPEN / NEEDS_REVIEW
 - OQ-2026-10-05-001 — short eligibility, phase-start marker schema and guaranteed-divergence indicator specification — OPEN / NEEDS_REVIEW
 - OQ-2026-10-05-002 — Miro board/diagram identity, plugin permissions, linked elements and diagram-edit validation — OPEN / NEEDS_REVIEW
+- OQ-2026-10-05-003 — future website versus reference diagram, arrow-label standards and automatic direction rendering — OPEN / NEEDS_REVIEW
