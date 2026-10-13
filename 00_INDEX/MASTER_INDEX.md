@@ -41,6 +41,10 @@ AI не повинен читати всі транскрипції, якщо To
 - Data → `02_KNOWLEDGE/DATA/`
 - Integrations → `02_KNOWLEDGE/INTEGRATIONS/`
 
+## Latest batch processing
+
+- **Batch report:** `99_SYSTEM/PROCESSING_REPORTS/BATCH-2026-10-13.md` — 8 new CALLs, 765 source turns, all NEEDS_REVIEW pending semantic validation.
+
 ## Current CALLs
 
 ### CALL-2026-10-08-001
