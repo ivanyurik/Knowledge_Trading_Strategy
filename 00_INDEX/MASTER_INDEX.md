@@ -41,11 +41,110 @@ AI не повинен читати всі транскрипції, якщо To
 - Data → `02_KNOWLEDGE/DATA/`
 - Integrations → `02_KNOWLEDGE/INTEGRATIONS/`
 
+## Current CALLs
+
+### CALL-2026-10-04-001
+Status: `NEEDS_REVIEW`
+
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-04-001.md`
+
+Related knowledge:
+- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-003.md`
+
+Related questions/conflicts:
+- `04_OPEN_QUESTIONS/OQ-2026-10-04-001.md`
+- `05_CONFLICTS/CON-2026-10-04-001.md`
+
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-04-001.md`
+
+### CALL-2026-10-04-002
+Status: `NEEDS_REVIEW`
+
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-04-002.md`
+
+Related knowledge:
+- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-002.md`
+
+Related questions:
+- `04_OPEN_QUESTIONS/OQ-2026-10-04-002.md`
+
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-04-002.md`
+
+### CALL-2026-10-05-001
+Status: `NEEDS_REVIEW`
+
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-001.md`
+
+Related knowledge:
+- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-004.md`
+
+Related questions/conflicts:
+- `04_OPEN_QUESTIONS/OQ-2026-10-05-001.md`
+- `05_CONFLICTS/CON-2026-10-05-001.md`
+
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-001.md`
+
+### CALL-2026-10-05-002
+Status: `NEEDS_REVIEW`
+
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-002.md`
+
+Related knowledge:
+- `02_KNOWLEDGE/WORKFLOWS/KB-WF-002.md`
+
+Related questions:
+- `04_OPEN_QUESTIONS/OQ-2026-10-05-002.md`
+
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-002.md`
+
+### CALL-2026-10-05-003
+Status: `NEEDS_REVIEW`
+
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-003.md`
+
+Related knowledge:
+- `02_KNOWLEDGE/WORKFLOWS/KB-WF-002.md`
+
+Related questions:
+- `04_OPEN_QUESTIONS/OQ-2026-10-05-003.md`
+
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-003.md`
+
+### CALL-2026-10-06-001
+Status: `NEEDS_REVIEW`
+
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-06-001.md`
+
+Related knowledge:
+- `02_KNOWLEDGE/ARCHITECTURE/KB-ARCH-001.md`
+- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-001.md`
+
+Related decisions/questions/conflicts:
+- `03_DECISIONS/DEC-2026-10-06-001.md`
+- `04_OPEN_QUESTIONS/OQ-2026-10-06-001.md`
+- `05_CONFLICTS/CON-2026-10-06-001.md`
+
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-06-001.md`
+
+### CALL-2026-10-07-001
+Status: `NEEDS_REVIEW`
+
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-001.md`
+
+Related knowledge:
+- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-002.md`
+- `02_KNOWLEDGE/WORKFLOWS/KB-WF-001.md`
+
+Related questions/conflicts:
+- `04_OPEN_QUESTIONS/OQ-2026-10-07-001.md`
+- `05_CONFLICTS/CON-2026-10-07-001.md`
+
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-07-001.md`
+
 ### CALL-2026-10-07-002
 Status: `NEEDS_REVIEW`
 
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-002.md`
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-002.md`
 
 Related knowledge:
 - `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-005.md`
@@ -55,237 +154,25 @@ Related questions/conflicts:
 - `04_OPEN_QUESTIONS/OQ-2026-10-07-002.md`
 - `05_CONFLICTS/CON-2026-10-07-002.md`
 
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-07-002.md`
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-07-002.md`
 
-### CALL-2026-10-05-003
+### CALL-2026-10-07-003
 Status: `NEEDS_REVIEW`
 
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-003.md`
+Canonical transcript: `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-003.md`
 
 Related knowledge:
-- `02_KNOWLEDGE/WORKFLOWS/KB-WF-002.md`
-
-Related questions:
-- `04_OPEN_QUESTIONS/OQ-2026-10-05-003.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-003.md`
-
-### CALL-2026-10-05-002
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-002.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/WORKFLOWS/KB-WF-002.md`
-
-Related questions:
-- `04_OPEN_QUESTIONS/OQ-2026-10-05-002.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-002.md`
-
-### CALL-2026-10-05-001
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-001.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-004.md`
-
-Related questions/conflicts:
-- `04_OPEN_QUESTIONS/OQ-2026-10-05-001.md`
-- `05_CONFLICTS/CON-2026-10-05-001.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-001.md`
-
-### CALL-2026-10-04-002
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-04-002.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-002.md`
-
-Related questions:
-- `04_OPEN_QUESTIONS/OQ-2026-10-04-002.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-04-002.md`
-
-### CALL-2026-10-04-001
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-04-001.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-003.md`
-
-Related questions/conflicts:
-- `04_OPEN_QUESTIONS/OQ-2026-10-04-001.md`
-- `05_CONFLICTS/CON-2026-10-04-001.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-04-001.md`
-
-### CALL-2026-10-07-001
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-001.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-002.md`
-- `02_KNOWLEDGE/WORKFLOWS/KB-WF-001.md`
-
-Related decisions/questions/conflicts:
-- No new decision created.
-- `04_OPEN_QUESTIONS/OQ-2026-10-07-001.md`
-- `05_CONFLICTS/CON-2026-10-07-001.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-07-001.md`
-
-### CALL-2026-10-06-001
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-06-001.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/ARCHITECTURE/KB-ARCH-001.md`
 - `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-001.md`
-
-Related decisions/questions/conflicts:
-- `03_DECISIONS/DEC-2026-10-06-001.md`
-- `04_OPEN_QUESTIONS/OQ-2026-10-06-001.md`
-- `05_CONFLICTS/CON-2026-10-06-001.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-06-001.md`
-
-## Agent entry point
-
-Read `99_SYSTEM/AGENT_INSTRUCTIONS.md` before processing the repository.
-### CALL-2026-10-05-003
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-003.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/WORKFLOWS/KB-WF-002.md`
-
-Related questions:
-- `04_OPEN_QUESTIONS/OQ-2026-10-05-003.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-003.md`
-
-### CALL-2026-10-05-002
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-002.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/WORKFLOWS/KB-WF-002.md`
-
-Related questions:
-- `04_OPEN_QUESTIONS/OQ-2026-10-05-002.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-002.md`
-
-### CALL-2026-10-05-001
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-05-001.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-004.md`
-
-Related questions/conflicts:
-- `04_OPEN_QUESTIONS/OQ-2026-10-05-001.md`
-- `05_CONFLICTS/CON-2026-10-05-001.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-05-001.md`
-
-### CALL-2026-10-04-002
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-04-002.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-002.md`
-
-Related questions:
-- `04_OPEN_QUESTIONS/OQ-2026-10-04-002.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-04-002.md`
-
-### CALL-2026-10-04-001
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-04-001.md`
-
-Related knowledge:
 - `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-003.md`
+- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-004.md`
+- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-005.md`
+- `02_KNOWLEDGE/WORKFLOWS/KB-WF-002.md`
 
 Related questions/conflicts:
-- `04_OPEN_QUESTIONS/OQ-2026-10-04-001.md`
-- `05_CONFLICTS/CON-2026-10-04-001.md`
+- `04_OPEN_QUESTIONS/OQ-2026-10-07-003.md`
+- `05_CONFLICTS/CON-2026-10-07-003.md`
 
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-04-001.md`
-
-### CALL-2026-10-07-001
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-07-001.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-002.md`
-- `02_KNOWLEDGE/WORKFLOWS/KB-WF-001.md`
-
-Related decisions/questions/conflicts:
-- No new decision created.
-- `04_OPEN_QUESTIONS/OQ-2026-10-07-001.md`
-- `05_CONFLICTS/CON-2026-10-07-001.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-07-001.md`
-
-### CALL-2026-10-06-001
-Status: `NEEDS_REVIEW`
-
-Canonical transcript:
-`01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-06-001.md`
-
-Related knowledge:
-- `02_KNOWLEDGE/ARCHITECTURE/KB-ARCH-001.md`
-- `02_KNOWLEDGE/BUSINESS_LOGIC/KB-BL-001.md`
-
-Related decisions/questions/conflicts:
-- `03_DECISIONS/DEC-2026-10-06-001.md`
-- `04_OPEN_QUESTIONS/OQ-2026-10-06-001.md`
-- `05_CONFLICTS/CON-2026-10-06-001.md`
-
-Processing report:
-- `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-06-001.md`
+Processing report: `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-07-003.md`
 
 ## Agent entry point
 
