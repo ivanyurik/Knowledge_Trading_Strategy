@@ -1,5 +1,11 @@
 # Changelog
 
+### CALL-2026-10-07-002 — spot BTC rule and diagram integration
+- Added corrected canonical transcript with 107 numbered turns; threshold and state-rule ambiguity remains marked NEEDS_REVIEW.
+- Added `KB-BL-005`, `OQ-2026-10-07-002` and `CON-2026-10-07-002` for spot-BTC accumulation, the 57,600 threshold, sell conditions and short eligibility.
+- Extended `KB-WF-002` with a constrained human-facing diagram integration workflow; added `TOPIC-SPOT-BTC-001` and updated the final-diagram routing.
+- No final purchase threshold or short rule was selected because the source contains unresolved contradictions.
+
 ## 2026-10-04
 
 ### CALL-2026-10-05-003 — diagram readability and future visualization
