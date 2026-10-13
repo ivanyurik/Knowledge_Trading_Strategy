@@ -2,6 +2,12 @@
 
 ## 2026-10-04
 
+### CALL-2026-10-05-001 — phase marker and short eligibility
+- Added corrected canonical transcript with 120 numbered source turns; ambiguous price/state phrases remain marked NEEDS_REVIEW.
+- Added `KB-BL-004`, `OQ-2026-10-05-001` and `CON-2026-10-05-001` for phase-start marker semantics and unresolved short eligibility.
+- Reused PivHist/final-diagram topics and added a focused phase-marker topic; no new decision was promoted from the conflicting discussion.
+- Final status remains NEEDS_REVIEW pending authoritative-diagram and chart validation.
+
 ### CALL-2026-10-04-002 — nested divergence pairing and post-close break-even review
 - Added corrected canonical transcript with all 70 source turns in chronological, numbered format; uncertain terminology remains marked NEEDS_REVIEW.
 - Extended `KB-BL-002` with the one-to-one nested divergence pairing constraint, unsuccessful-touch semantics and post-close break-even review.
