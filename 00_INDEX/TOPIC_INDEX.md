@@ -287,6 +287,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Occurrences / Sources:**
 - `CALL-2026-10-05-002`
+- `CALL-2026-10-05-003`
 
 **Structured knowledge:**
 - `KB-WF-002`
@@ -295,6 +296,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Open Questions:**
 - `OQ-2026-10-05-002`
+- `OQ-2026-10-05-003`
 
 **Conflicts:** None currently indexed
 
