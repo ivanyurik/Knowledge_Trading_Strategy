@@ -4,3 +4,4 @@
 - OQ-2026-10-06-001 — strategy-rule and architecture clarifications — OPEN / NEEDS_REVIEW
 
 Open questions remain traceable until explicitly resolved by source evidence.
+- OQ-2026-10-04-001 — guaranteed-divergence ATR filter, Global Target sampling and summary-data validation — OPEN / NEEDS_REVIEW
