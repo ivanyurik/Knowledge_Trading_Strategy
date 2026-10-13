@@ -37,4 +37,17 @@ The later discussion adds the following candidate rules:
 - The stated long-horizon goal remains to hold spot BTC until the market peak, with a fallback exit if the peak is missed. The exact peak-miss signal is not formalized here.
 
 [NEEDS_REVIEW: confirm whether these triggers apply at all long entries or only within the accumulation interval, and verify the exact trigger label, exception order, threshold and exit signal against the authoritative Telegram specification/diagram.]
-Source: CALL-2026-10-07-002, turns 021–034, 048–055, 061–080; related historical source: CALL-2026-10-05-001.; CALL-2026-10-07-003
+## Additional clarification attempt — bottom confirmation, threshold and exceptions
+
+The later conversation attempts to clarify the accumulation cycle but ends with a request for a more explicit final text. The candidate sequence discussed is:
+
+- Do not buy spot BTC before the bottom has been confirmed.
+- The first bullish weekly divergence above the confirmed bottom may mark the start of the accumulation interval.
+- The interval may continue until the first subsequent bearish weekly divergence; participants also discuss a fallback spot exit if a weekly divergence appears lower than the previous one, as a possible sign that the market peak was missed.
+- The 57,600 threshold is discussed as a condition for whether buying begins. This source leans toward “no buying below 57,600; begin only after the bottom/upswing condition is confirmed and price is above the threshold,” but the discussion remains confused and the final rule is explicitly not yet written.
+- Spot BTC purchases are discussed both at qualifying long entries and at long take-profits via Trigger Limit. The rationale for take-profit purchases is that newly realized funds become available.
+- The 50% spot-BTC target and the exception to skip a purchase when the spot share is already 50% or higher are repeated.
+
+[NEEDS_REVIEW: exact ordering of bottom confirmation, threshold crossing, exception checks, long-entry purchases, take-profit purchases and spot exit is not settled. This CALL does not close the conflicts from CALL-2026-10-07-002; use the authoritative final diagram/specification.]
+
+Source: CALL-2026-10-07-002, turns 021–034, 048–055, 061–080; related historical source: CALL-2026-10-05-001.; CALL-2026-10-07-003; CALL-2026-10-08-001
