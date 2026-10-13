@@ -6,6 +6,12 @@
 - Extended `KB-WF-002` with a constrained human-facing diagram integration workflow; added `TOPIC-SPOT-BTC-001` and updated the final-diagram routing.
 - No final purchase threshold or short rule was selected because the source contains unresolved contradictions.
 
+### CALL-2026-10-07-003 — range and stop review
+- Added corrected canonical transcript with 174 numbered turns; uncertain range, stop and weekly-divergence passages remain marked NEEDS_REVIEW.
+- Extended `KB-BL-001`, `KB-BL-003`, `KB-BL-004` and `KB-BL-005` with source-bound notes on weekly-divergence handling, ATR alignment, range boundaries and spot-BTC accumulation.
+- Added `OQ-2026-10-07-003` and `CON-2026-10-07-003` for unresolved range/phase semantics, “ignore” behavior and stop-method evidence.
+- One discrepant stop event was not treated as statistical evidence; no new trading decision was promoted.
+
 ## 2026-10-04
 
 ### CALL-2026-10-05-003 — diagram readability and future visualization
