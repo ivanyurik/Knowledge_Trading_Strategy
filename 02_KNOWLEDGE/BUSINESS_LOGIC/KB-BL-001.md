@@ -21,5 +21,11 @@ Status: NEEDS_REVIEW
 - Exact meaning of D1V.
 - Exact exit trigger and candle-color rule.
 - Exact meaning of the ASR-corrupted terms around the stop/transition phase.
+## Weekly bearish-divergence “ignore” semantics — later source
 
-Source: CALL-2026-10-06-001, lines 5-11, 74-82, 88-111, 121-130, 141.
+The discussion describes an existing rule under which a weekly bearish divergence in the first half of a trend is ignored when the global indicator does not provide the specified support. The participants say they followed the written rule but question whether “ignore” means only “do not enter a short” or means fully ignoring the signal while continuing to hold/enter an impulse trade against it.
+
+The call also discusses whether an earlier bearish weekly divergence should have caused the current impulse trade to be closed, but does not establish a new, conflict-free exit rule.
+
+[NEEDS_REVIEW: the exact support condition, first-half boundary, and operational meaning of “ignore” must be checked against the authoritative final diagram. Do not generalize the call's live-position discussion into trade advice.]
+Source: CALL-2026-10-06-001, lines 5-11, 74-82, 88-111, 121-130, 141.; CALL-2026-10-07-003
