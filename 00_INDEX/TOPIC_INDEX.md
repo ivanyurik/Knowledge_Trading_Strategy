@@ -69,11 +69,13 @@
 **Occurrences / Sources:**
 - `CALL-2026-10-06-001`
 - `CALL-2026-10-05-001`
+- `CALL-2026-10-07-003`
 
 **Structured knowledge:**
 - `KB-ARCH-001`
 - `KB-BL-001`
 - `KB-BL-004`
+- `KB-BL-003`
 
 **Decisions:**
 - `DEC-2026-10-06-001`
@@ -81,10 +83,12 @@
 **Open Questions:**
 - `OQ-2026-10-06-001`
 - `OQ-2026-10-05-001`
+- `OQ-2026-10-07-003`
 
 **Conflicts:**
 - `CON-2026-10-06-001`
 - `CON-2026-10-05-001`
+- `CON-2026-10-07-003`
 
 **Status:** ACTIVE / NEEDS_REVIEW
 
@@ -122,9 +126,12 @@
 - `CALL-2026-10-07-002`
 - `CALL-2026-10-05-002`
 - `CALL-2026-10-05-001`
+- `CALL-2026-10-07-003`
 
 **Structured knowledge:**
 - `KB-BL-004`
+- `KB-WF-002`
+- `KB-BL-005`
 
 **Decisions:**
 - `DEC-2026-10-06-001`
@@ -134,10 +141,12 @@
 - `OQ-2026-10-05-002`
 - `OQ-2026-10-07-002`
 - `OQ-2026-10-05-001`
+- `OQ-2026-10-07-003`
 
 **Conflicts:**
 - `CON-2026-10-06-001`
 - `CON-2026-10-05-001`
+- `CON-2026-10-07-003`
 
 **Status:** CONFIRMED as source-priority rule
 
@@ -160,11 +169,13 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 - `CALL-2026-10-07-001`
 - `CALL-2026-10-04-001`
 - `CALL-2026-10-04-002`
+- `CALL-2026-10-07-003`
 
 **Structured knowledge:**
 - `KB-BL-002`
 - `KB-BL-003`
 - `KB-WF-001`
+- `KB-BL-001`
 
 **Decisions:** None currently indexed
 
@@ -172,10 +183,12 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 - `OQ-2026-10-07-001`
 - `OQ-2026-10-04-001`
 - `OQ-2026-10-04-002`
+- `OQ-2026-10-07-003`
 
 **Conflicts:**
 - `CON-2026-10-07-001`
 - `CON-2026-10-04-001`
+- `CON-2026-10-07-003`
 
 **Status:** ACTIVE / NEEDS_REVIEW
 
@@ -265,6 +278,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Occurrences / Sources:**
 - `CALL-2026-10-05-001`
+- `CALL-2026-10-07-003`
 
 **Structured knowledge:**
 - `KB-BL-004`
@@ -273,9 +287,11 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Open Questions:**
 - `OQ-2026-10-05-001`
+- `OQ-2026-10-07-003`
 
 **Conflicts:**
 - `CON-2026-10-05-001`
+- `CON-2026-10-07-003`
 
 **Status:** ACTIVE / NEEDS_REVIEW
 
@@ -314,6 +330,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Occurrences / Sources:**
 - `CALL-2026-10-07-002`
+- `CALL-2026-10-07-003`
 
 **Structured knowledge:**
 - `KB-BL-005`
