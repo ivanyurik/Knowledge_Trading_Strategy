@@ -37,4 +37,14 @@ The conversation highlights a recurring execution risk: the requester may omit d
 
 [NEEDS_REVIEW: final role of the reference diagram/table versus the future website is not decided in this source.]
 
-Source: CALL-2026-10-05-002, turns 044–054, 061–086; CALL-2026-10-05-003, turns 008–015.
+## Integrating a new rule into the human-facing strategy diagram
+
+- Identify the exact original diagram named by the requester and confirm the agent can read all blocks, arrows, labels and text.
+- Build a compact human-readable integration view that shows the new rule's entry point and direct dependencies on the original blocks.
+- Do not expand the view into all internal continuation/programming logic if the requested goal is only to illustrate how the new rule interacts with the existing strategy.
+- Verify every displayed condition against the supplied Telegram specification and original diagram; links must navigate to the intended blocks.
+- Keep a duplicate/reference copy and compare the edited result before reporting completion.
+
+[NEEDS_REVIEW: the source diagram name, block identities and exact spot-BTC rule remain unresolved in CALL-2026-10-07-002.]
+
+Source: CALL-2026-10-05-002, turns 044–054, 061–086; CALL-2026-10-05-003, turns 008–015; CALL-2026-10-07-002, turns 021–034, 061–080.
