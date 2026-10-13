@@ -147,6 +147,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 **Occurrences / Sources:**
 - `CALL-2026-10-07-001`
 - `CALL-2026-10-04-001`
+- `CALL-2026-10-04-002`
 
 **Structured knowledge:**
 - `KB-BL-002`
@@ -157,7 +158,10 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Open Questions:**
 - `OQ-2026-10-07-001`
+- `OQ-2026-10-04-001`**Open Questions:**
+- `OQ-2026-10-07-001`
 - `OQ-2026-10-04-001`
+- `OQ-2026-10-04-002`
 
 **Conflicts:**
 - `CON-2026-10-07-001`
@@ -196,6 +200,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 **Related topics:** Divergence Lifecycle and Invalidation, Market Phase, Alert Workflow
 
 **Occurrences / Sources:**
+- `CALL-2026-10-04-002`
 - `CALL-2026-10-07-001`
 
 **Structured knowledge:**
@@ -205,7 +210,9 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 **Decisions:** None currently indexed
 
 **Open Questions:**
+- `OQ-2026-10-07-001`**Open Questions:**
 - `OQ-2026-10-07-001`
+- `OQ-2026-10-04-002`
 
 **Conflicts:**
 - `CON-2026-10-07-001`
@@ -222,6 +229,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Occurrences / Sources:**
 - `CALL-2026-10-04-001`
+- `CALL-2026-10-04-002`
 
 **Structured knowledge:**
 - `KB-BL-003`
@@ -229,7 +237,9 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 **Decisions:** None currently indexed
 
 **Open Questions:**
+- `OQ-2026-10-04-001`**Open Questions:**
 - `OQ-2026-10-04-001`
+- `OQ-2026-10-04-002`
 
 **Conflicts:**
 - `CON-2026-10-04-001`
