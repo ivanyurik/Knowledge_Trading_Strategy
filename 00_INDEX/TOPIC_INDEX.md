@@ -158,8 +158,6 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 
 **Open Questions:**
 - `OQ-2026-10-07-001`
-- `OQ-2026-10-04-001`**Open Questions:**
-- `OQ-2026-10-07-001`
 - `OQ-2026-10-04-001`
 - `OQ-2026-10-04-002`
 
@@ -210,7 +208,6 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 **Decisions:** None currently indexed
 
 **Open Questions:**
-- `OQ-2026-10-07-001`**Open Questions:**
 - `OQ-2026-10-07-001`
 - `OQ-2026-10-04-002`
 
