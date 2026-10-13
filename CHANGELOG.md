@@ -12,6 +12,12 @@
 - Added `OQ-2026-10-07-003` and `CON-2026-10-07-003` for unresolved range/phase semantics, “ignore” behavior and stop-method evidence.
 - One discrepant stop event was not treated as statistical evidence; no new trading decision was promoted.
 
+### CALL-2026-10-08-001 — spot BTC clarification attempt
+- Added corrected canonical transcript with 96 numbered turns; the discussion ends by requesting a more explicit final text, so the rule remains NEEDS_REVIEW.
+- Extended `KB-BL-005` with the bottom-confirmation/57,600 gate, long-entry and take-profit triggers, 50% cap and peak-miss exit discussion.
+- Added `OQ-2026-10-08-001` and `CON-2026-10-08-001`; linked the source through spot-BTC, divergence and final-diagram topics.
+- GitHub permission discussion was recorded as an open question; actual collaborator permissions were not inferred from the transcript.
+
 ## 2026-10-04
 
 ### CALL-2026-10-05-003 — diagram readability and future visualization
