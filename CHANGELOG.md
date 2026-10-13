@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-13
+
+### Batch processing — eight transcript sources
+- Added `99_SYSTEM/PROCESSING_REPORTS/BATCH-2026-10-13.md` with the source inventory, 765-turn reconciliation, repository integrity checks and unresolved semantic review items.
+- Verified that the combined transcript duplicates the eight separate source files; it was not treated as an additional CALL.
+- Confirmed that all eight new CALLs remain NEEDS_REVIEW; no unresolved strategy rule was promoted to a confirmed decision.
+
 ## 2026-10-08
 
 ### CALL-2026-10-08-001 — spot BTC clarification attempt
