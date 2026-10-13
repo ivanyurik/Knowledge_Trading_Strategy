@@ -2,6 +2,12 @@
 
 ## 2026-10-04
 
+### CALL-2026-10-05-002 — Miro diagram editing workflow
+- Added corrected canonical transcript with 86 numbered source turns; uncertain board names, account/access claims and ASR-corrupted terms remain marked NEEDS_REVIEW.
+- Added `KB-WF-002` and `OQ-2026-10-05-002` for safe Miro editing, exact diagram identity, plugin access and validation.
+- Extended the authoritative diagram topic and added `TOPIC-MIRO-EDIT-001`; temporary account-access discussion was not promoted to a strategy rule.
+- Final status remains NEEDS_REVIEW pending diagram/access validation.
+
 ### CALL-2026-10-05-001 — phase marker and short eligibility
 - Added corrected canonical transcript with 120 numbered source turns; ambiguous price/state phrases remain marked NEEDS_REVIEW.
 - Added `KB-BL-004`, `OQ-2026-10-05-001` and `CON-2026-10-05-001` for phase-start marker semantics and unresolved short eligibility.
