@@ -28,5 +28,14 @@ This is evidence of a context-dependent rule discussion, not a fully validated g
 - The PivHist Monitor script is being updated in a working file.
 - The participants discuss extending chart lines to the right, anchoring them to the relevant wick, and duplicating a corresponding line for the short side.
 - The conversation mentions implementing the guaranteed-divergence logic in the indicator, but does not provide a complete technical specification.
+## Range boundaries and “Остановка + Flat” — later source
 
-Source: CALL-2026-10-05-001, turns 003–014, 048–084, 087–107, 120.
+The conversation proposes a range-boundary rule:
+- Find the highest wick within the relevant interval bounded by the “Остановка + Flat” phase start and the next relevant boundary.
+- A weekly candle must close above that wick to confirm a breakout; a wick alone is explicitly said not to be sufficient.
+- The speaker states that this breakout test may apply regardless of whether a trade occurred during the interval.
+
+The participants also discuss a separate rule that a range can start from a 4H divergence on a Fibonacci grid stretched across the range's high/low. They question how to classify price movement into a new range when no qualifying 4H divergence or impulse trade occurred, and why multiple “Остановка + Flat” markers appear consecutively. These points remain unresolved.
+
+[NEEDS_REVIEW: this proposed range-boundary rule must be checked against the authoritative final strategy diagram and historical examples.]
+Source: CALL-2026-10-05-001, turns 003–014, 048–084, 087–107, 120.; CALL-2026-10-07-003
