@@ -41,6 +41,12 @@ AI не повинен читати всі транскрипції, якщо To
 - Data → `02_KNOWLEDGE/DATA/`
 - Integrations → `02_KNOWLEDGE/INTEGRATIONS/`
 
+## Phase indicator and orchestrator reference
+
+- **CALL:** `01_RAW_TRANSCRIPTS/2026/10/CALL-2026-10-15-001.md`
+- **Companion plot dictionary:** `02_KNOWLEDGE/DATA/PifHist_Monitor_Phase_Plots_Structure.md` — read together with the CALL transcript because the transcript explains the use and purpose of this plot schema.
+- **Processing report:** `99_SYSTEM/PROCESSING_REPORTS/CALL-2026-10-15-001.md` (NEEDS_REVIEW)
+
 ## Latest batch processing
 
 - **Batch report:** `99_SYSTEM/PROCESSING_REPORTS/BATCH-2026-10-13.md` — 8 new CALLs, 765 source turns, all NEEDS_REVIEW pending semantic validation.
