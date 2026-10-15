@@ -70,6 +70,7 @@
 - `CALL-2026-10-06-001`
 - `CALL-2026-10-05-001`
 - `CALL-2026-10-07-003`
+- `${call}`
 
 **Structured knowledge:**
 - `KB-ARCH-001`
@@ -174,6 +175,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 - `CALL-2026-10-04-002`
 - `CALL-2026-10-07-003`
 - `CALL-2026-10-08-001`
+- `${call}`
 
 **Structured knowledge:**
 - `KB-BL-002`
@@ -286,6 +288,7 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 **Occurrences / Sources:**
 - `CALL-2026-10-05-001`
 - `CALL-2026-10-07-003`
+- `${call}`
 
 **Structured knowledge:**
 - `KB-BL-004`
@@ -352,5 +355,28 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 **Conflicts:**
 - `CON-2026-10-07-002`
 - `CON-2026-10-08-001`
+
+**Status:** ACTIVE / NEEDS_REVIEW
+
+
+---
+
+### TOPIC-ORCH-001 — Table-Driven Trading Orchestrator
+**Aliases:** trading orchestrator, phase-driven orchestrator, table-driven trade execution
+
+**Related topics:** PivHist, Divergence Lifecycle and Invalidation, Phase Start Marker and Short Eligibility
+
+**Occurrences / Sources:**
+- `CALL-2026-10-15-001`
+
+**Structured knowledge:**
+- `KB-ARCH-001`
+
+**Decisions:** None — the source describes a proposed architecture, not a finalized implementation decision.
+
+**Open Questions:**
+- `OQ-2026-10-15-001`
+
+**Conflicts:** None explicitly established by this CALL.
 
 **Status:** ACTIVE / NEEDS_REVIEW
