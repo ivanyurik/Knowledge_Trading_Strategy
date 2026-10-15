@@ -367,7 +367,8 @@ Every topic entry must remain traceable to canonical CALL-ID sources.
 **Related topics:** PivHist, Divergence Lifecycle and Invalidation, Phase Start Marker and Short Eligibility
 
 **Occurrences / Sources:**
-- `CALL-2026-10-15-001; companion reference: `02_KNOWLEDGE/DATA/PifHist_Monitor_Phase_Plots_Structure.md``
+- `CALL-2026-10-15-001`
+- Companion reference: `02_KNOWLEDGE/DATA/PifHist_Monitor_Phase_Plots_Structure.md`
 
 **Structured knowledge:**
 - `KB-ARCH-001`
