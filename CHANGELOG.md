@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-15
+
+### CALL-2026-10-15-001 — phase indicator and table-driven trading orchestrator
+- Added corrected canonical transcript and processing report; status remains NEEDS_REVIEW.
+- Extended KB-ARCH-001 with the source-described separation between phase calculation and table-driven trade execution.
+- Added OQ-2026-10-15-001 for exact sheet/indicator names, phase-specific trade rules, exporter inputs and unresolved implementation details.
+- Updated Topic Index routing for PivHist, divergence and phase-marker topics; added TOPIC-ORCH-001 for the orchestrator scope.
+- Updated Master Index, Open Questions Index and Requirements Index.
+- No new trading decision was created; the 0.5 entry example remains an example pending explicit rule definition.
+- The separately supplied Plots-definition document was not copied because its complete original file content was not available for exact-preservation verification.
+
 ## 2026-10-13
 
 ### Batch processing — eight transcript sources
