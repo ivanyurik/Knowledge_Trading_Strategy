@@ -9,7 +9,7 @@
 - Updated Topic Index routing for PivHist, divergence and phase-marker topics; added TOPIC-ORCH-001 for the orchestrator scope.
 - Updated Master Index, Open Questions Index and Requirements Index.
 - No new trading decision was created; the 0.5 entry example remains an example pending explicit rule definition.
-- The separately supplied Plots-definition document was not copied because its complete original file content was not available for exact-preservation verification.
+- Added `02_KNOWLEDGE/DATA/PifHist_Monitor_Phase_Plots_Structure.md` as the companion plot dictionary and linked it from the canonical CALL transcript; both artifacts are intended to be read together.
 
 ## 2026-10-13
 
